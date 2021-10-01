@@ -1,4 +1,4 @@
-// the code below deals with the implementation of a flight a booking system .
+// The code below deals with the implementation of a flight a booking system .
 #include<stdio.h>
 #include<stdlib.h>
 #include<conio.h>
@@ -170,7 +170,7 @@ void display()
 		printf("\n      Flight: %-15s", cur->flight);
 		printf("\n      Destination: %-15s", cur->dest);
 		printf("\n      Date: %-15s", cur->date);
-		printf("\n\n++=====================================================++");
+		printf("\n\n++====================================================++");
 		cur = cur->next;
 	}
 
